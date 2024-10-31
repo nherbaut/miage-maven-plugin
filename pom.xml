@@ -15,6 +15,13 @@
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
+    <scm>
+        <connection>scm:git:https://github.com/nherbaut/miage-maven-plugin.git</connection>
+        <developerConnection>scm:git:https://github.com/nherbaut/miage-maven-plugin.git</developerConnection>
+        <url>https://github.com/nherbaut/miage-maven-plugin</url>
+    </scm>
+
+
     <prerequisites>
         <maven>${maven.version}</maven>
     </prerequisites>
@@ -104,7 +111,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
