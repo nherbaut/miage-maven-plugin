@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>fr.pantheonsorbonne.ufr27</groupId>
+    <artifactId>project-to-test</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>Test MyMojo</name>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>fr.pantheonsorbonne.ufr27</groupId>
+                <artifactId>miage-maven-plugin</artifactId>
+                <configuration>
+                    <!-- Specify the MyMojo parameter -->
+
+                    <userName>nherbaut</userName>
+                    <sourceDir>src/main/java</sourceDir>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
